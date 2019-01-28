@@ -16,7 +16,7 @@ public class Board {
         int i, j;
         for (i = 0; i < height; i++) {
             for (j = 0; j < width; j++) {
-                if ((i + j)% 2 == 0) {
+                if ((i + j) % 2 == 0) {
                     screen.append("X");
                 } else {
                     screen.append(" ");
