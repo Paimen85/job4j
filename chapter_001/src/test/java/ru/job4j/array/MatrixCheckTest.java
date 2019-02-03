@@ -26,7 +26,7 @@ public class MatrixCheckTest {
     public void whenDataNotMonoByTrueThenFalse() {
         MatrixCheck check = new MatrixCheck();
         boolean[][] input = new boolean[][] {
-                {true, true, false},
+                {true, true, true},
                 {false, false, true},
                 {true, false, true}
         };
